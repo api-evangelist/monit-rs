@@ -64,5 +64,157 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-monit-rs is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://monit.rs/
+Monit.rs provides a regression-aware API monitoring service that tracks API response changes, reviews field-level differences, and tests alerts. It offers OpenAPI contract checks, security fuzz testing, uptime monitoring, status pages, and AI-generated change explanations. Users can start with three free endpoints and access both anonymous changelog data and authenticated endpoints via API keys.
+
+**Areas:** API Monitoring · API Regression Detection · Schema Monitoring · Endpoint Monitoring · API Security Testing · OpenAPI Contract Testing · Uptime Monitoring · Status Pages · Slack Alerts · PagerDuty Alerts
+
+## monit-rs on APIs.io
+
+Everything profiled for monit-rs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/monit-rs/](https://apis.io/providers/monit-rs/)** — or go straight to one of the APIs or properties below.
+
+### APIs (20)
+
+- [monit-rs AI Analyses API](https://apis.io/apis/monit-rs/monit-rs-ai-analyses-api/) — The ai-analyses API from monit-rs — 3 operation(s) for ai-analyses.
+- [monit-rs Alerts API](https://apis.io/apis/monit-rs/monit-rs-alerts-api/) — Manage alert channels.
+- [monit-rs API Keys API](https://apis.io/apis/monit-rs/monit-rs-api-keys-api/) — Manage your API keys for authenticated access.
+- [monit-rs Badges API](https://apis.io/apis/monit-rs/monit-rs-badges-api/) — Shields.io-compatible SVG badges for embedding in READMEs.
+- [monit-rs Changelog API](https://apis.io/apis/monit-rs/monit-rs-changelog-api/) — Read tracked-API drift data (per-vendor entries, stability metrics, recent changes).
+- [monit-rs Dashboard API](https://apis.io/apis/monit-rs/monit-rs-dashboard-api/) — The dashboard API from monit-rs — 4 operation(s) for dashboard.
+- [monit-rs Dependencies API](https://apis.io/apis/monit-rs/monit-rs-dependencies-api/) — The dependencies API from monit-rs — 1 operation(s) for dependencies.
+- [monit-rs Endpoints API](https://apis.io/apis/monit-rs/monit-rs-endpoints-api/) — Manage and query endpoint monitors.
+- [monit-rs Feeds API](https://apis.io/apis/monit-rs/monit-rs-feeds-api/) — Atom/RSS feeds for machine consumption.
+- [monit-rs Incidents API](https://apis.io/apis/monit-rs/monit-rs-incidents-api/) — Create and retrieve incidents.
+- [monit-rs Ingestion API](https://apis.io/apis/monit-rs/monit-rs-ingestion-api/) — Push probe results and retrieve probe details.
+- [monit-rs Public API](https://apis.io/apis/monit-rs/monit-rs-public-api-api/) — Authenticated API endpoints.
+- [monit-rs Regressions API](https://apis.io/apis/monit-rs/monit-rs-regressions-api/) — Query API regressions and schema diffs.
+- [monit-rs Security Findings API](https://apis.io/apis/monit-rs/monit-rs-security-findings-api/) — The security-findings API from monit-rs — 3 operation(s) for security-findings.
+- [monit-rs Stats API](https://apis.io/apis/monit-rs/monit-rs-stats-api/) — Aggregated cross-vendor statistics.
+- [monit-rs Status Pages API](https://apis.io/apis/monit-rs/monit-rs-status-pages-api/) — Manage public status pages.
+- [monit-rs Subscriptions API](https://apis.io/apis/monit-rs/monit-rs-subscriptions-api/) — Opt-in email digest + Slack/Discord webhook subscriptions. Every subscription requires double-opt-in confirmation.
+- [monit-rs Tools API](https://apis.io/apis/monit-rs/monit-rs-tools-api/) — The tools API from monit-rs — 3 operation(s) for tools.
+- [monit-rs Users API](https://apis.io/apis/monit-rs/monit-rs-users-api/) — The users API from monit-rs — 2 operation(s) for users.
+- [monit-rs Webhooks API](https://apis.io/apis/monit-rs/monit-rs-webhooks-api/) — Manage webhook subscriptions and delivery attempts.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Monit Rs Agentic Access](https://apis.io/agentic-access/monit-rs/monit-rs-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [EndpointDetail](https://apis.io/schemas/monit-rs/monit-rs-endpoint-detail/)
+- [EndpointResponse](https://apis.io/schemas/monit-rs/monit-rs-endpoint-response/)
+- [IncidentDetailResponse](https://apis.io/schemas/monit-rs/monit-rs-incident-detail-response/)
+- [OpenAPIImportPreviewResponse](https://apis.io/schemas/monit-rs/monit-rs-open-apiimport-preview-response/)
+- [OpenAPIImportRequest](https://apis.io/schemas/monit-rs/monit-rs-open-apiimport-request/)
+- [RegressionResponse](https://apis.io/schemas/monit-rs/monit-rs-regression-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Monit Rs Context](https://apis.io/jsonld/monit-rs/monit-rs-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [monit-rs API Rules](https://apis.io/rules/monit-rs/monit-rs-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Monit Rs Authentication](https://apis.io/security/monit-rs/monit-rs-authentication/)
+- [Monit Rs Domain Security](https://apis.io/security/monit-rs/monit-rs-domain-security/)
+- [Monit Rs Vulnerability Disclosure](https://apis.io/security/monit-rs/monit-rs-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Monit Rs Scopes](https://apis.io/scopes/monit-rs/monit-rs-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Monit Rs Plans Pricing](https://apis.io/plans/monit-rs/monit-rs-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://monit.rs/)
+- [Documentation](https://monit.rs/docs/api)
+- [Getting started](https://monit.rs/docs)
+- [API reference](https://monit.rs/api-docs)
+- [Pricing](https://monit.rs/pricing)
+- [Support](https://monit.rs/contact)
+- [Changelog](https://monit.rs/changelog)
+- [Blog](https://monit.rs/blog)
+- [Security](https://monit.rs/security)
+- [Terms of service](https://monit.rs/terms)
+- [Privacy policy](https://monit.rs/privacy)
+
+## API Evangelist rating
+
+**Kin Score 51.9** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 43.1** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/monit-rs/](https://apis.io/providers/monit-rs/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for monit-rs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/monit-rs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
